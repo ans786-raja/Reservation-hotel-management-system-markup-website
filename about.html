@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sona Luxury Hotel</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+<link href="./css/main.css" rel="stylesheet">
+  <link href="./css/about.style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+  <!--  HEADER SECTION START -->
+<header>
+  <div class="bg-white border-bottom py-2 topbar-hide">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-2">
+      
+      <!-- Contact List -->
+      <ul class="list-unstyled d-flex flex-column flex-md-row mb-0 gap-2 gap-md-4 fw-medium topbar-list">
+        <li><i class="fa fa-phone me-2 text-warning"></i> (12) 345 67890</li>
+        <li><i class="fa fa-envelope me-2 text-warning"></i> info.colorlib@gmail.com</li>
+      </ul>
+
+      <!-- Social + Booking -->
+      <div class="d-flex align-items-center gap-2">
+        <div class="social-icons d-flex">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#" class="bk-btn text-center">Booking Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!--  Main Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Sona Hotel" style="height: 40px;">
+      </a>
+
+      <!-- Updated Navbar Toggler -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--  Custom Sidebar  -->
+      <div class="collapse navbar-collapse custom-sidebar" id="mainNav">
+
+        <!--  Circular Close Button -->
+        <button class="sidebar-close" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          &times;
+        </button>
+         <a href="#" class="bk-btn btn text-center">Booking Now</a>
+        <ul class="navbar-nav ms-auto align-items-start gap-4 p-4">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./room.html">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown hover-dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+              <li><a class="dropdown-item" href="./room.html">Room Details</a></li>
+              <li><a class="dropdown-item" href="#">Blog Details</a></li>
+              <li><a class="dropdown-item" href="#">Family Room</a></li>
+              <li><a class="dropdown-item" href="#">Premium Room</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+        <li class="nav-item"><a href="#" class="nav-link no-underline search-btn"><i class="fas fa-search"></i></a></li>
+        </ul>
+
+        <!--  Topbar Content for Mobile -->
+        <div class="sidebar-topbar d-none">
+          <ul class="list-unstyled mb-3 fw-medium">
+            <li><i class="fa fa-phone me-2 text-warning"></i> (12) 345 67890</li>
+            <li><i class="fa fa-envelope me-2 text-warning"></i> info.colorlib@gmail.com</li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <div class="social-icons d-flex">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <span class="close-btn" id="closeSearch">&times;</span>
+  <input type="text" placeholder="Search here..." />
+</div>
+
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-section py-4 text-center">
+    <div class="container">
+      <div class="breadcrumb-text">
+        <h2 class="display-5 fw-semibold text-dark">About Us</h2>
+        <div class="bt-option">
+          <a href="./index.php" class="fw-medium text-decoration-none text-heading">Home</a>
+          <span class="mx-1 text-secondary">></span>
+          <span class="text-secondary">About Us</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12 mb-4">
+          <div class="ap-title">
+            <h3 class="fw-bold text-subheading">Welcome To Sona.</h3>
+            <p class="mt-3 text-muted">
+              Built in 1910 during the Belle Epoque period, this hotel is located in the center of
+              Paris, with easy access to the city’s tourist attractions. It offers tastefully decorated rooms.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <ul class="ap-services list-unstyled text-dark">
+            <li>20% Off On Accommodation.</li>
+            <li>Complimentary Daily Breakfast</li>
+            <li>3 Pcs Laundry Per Day</li>
+            <li>Free Wifi.</li>
+            <li>Discount 20% On F&amp;B</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="row mt-5">
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="ap-service-item d-flex align-items-end rounded overflow-hidden mb-3" style="background-image: url('img/hero/hero-1.jpg');">
+            <div class="api-text"><h3>Restaurants Services</h3></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="ap-service-item d-flex align-items-end rounded overflow-hidden mb-3" style="background-image: url('img/hero/hero-2.jpg');">
+            <div class="api-text"><h3>Travel &amp; Camping</h3></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="ap-service-item d-flex align-items-end rounded overflow-hidden mb-3" style="background-image: url('img/hero/about-p3.jpg');">
+            <div class="api-text"><h3>Event &amp; Party</h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h5 class="text-uppercase fw-medium small d-block mb-2 text-highlight">Our Gallery</h5>
+        <h2 class="display-5 fw-semibold text-dark" >Discover Our Work</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="gallery-item" style="background-image: url('img/room/room-b1.jpg');">
+            <div class="gi-text"><h3>Room Luxury</h3></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-12">
+              <div class="gallery-item" style="background-image: url('img/room/room-b2.jpg');">
+                <div class="gi-text"><h3>Room Luxury</h3></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="gallery-item" style="background-image: url('img/room/room-b3.jpg');">
+                <div class="gi-text"><h3>Room Luxury</h3></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="gallery-item large-item" style="background-image: url('img/room/gallery-2.jpg');">
+            <div class="gi-text"><h3>Room Luxury</h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- About + Social -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <img src="img/logo.png" alt="Sona Hotel" class="footer-logo img-fluid">
+        <p>We inspire and reach millions of travelers across 90 local websites</p>
+        <div class="footer-social d-flex mt-3">
+          <a href="#" class="d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="d-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="d-flex align-items-center justify-content-center"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="d-flex align-items-center justify-content-center"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled footer-links">
+          <li><i class="fas fa-phone me-2"></i> (12) 345 67890</li>
+          <li><i class="fas fa-envelope me-2"></i> info.colorlib@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt me-2"></i> 856 Cordia Extension Apt. 356, Lake, United State</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <h5>New Latest</h5>
+        <p>Get the latest updates and offers.</p>
+        <!-- Responsive form -->
+        <form class="d-flex flex-sm-row flex-column footer-newsletter">
+          <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Email">
+          <button type="submit" class="bk-btn"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <div class="container">
+      <div class="row align-items-center text-center text-lg-start">
+        <div class="col-lg-7 mb-3 mb-lg-0">
+          <ul class="list-inline d-flex flex-wrap justify-content-center justify-content-lg-start mb-0">
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+            <li class="list-inline-item"><a href="#">Terms of use</a></li>
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Environmental Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-5 text-lg-end text-center">
+          <p class="mb-0">
+            Copyright © 2025 All rights reserved | This template is made with 
+            <i class="fas fa-heart text-danger"></i> by 
+            <a href="https://colorlib.com" class="colorlib-link">Colorlib</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
